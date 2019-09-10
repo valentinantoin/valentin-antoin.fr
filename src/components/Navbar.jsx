@@ -1,9 +1,8 @@
 import React from 'react';
 import { Layout, Header, Textfield, Drawer, Navigation, Content } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
+
 
 
 class Navbar extends React.Component {
