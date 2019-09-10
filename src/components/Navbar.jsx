@@ -4,10 +4,7 @@ import { Card, CardTitle, CardText } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
-
-
-class Navbar extends React.Component {
-    render() {
+const Navbar = () => {
         return (
             <div style={{height: '700px', position: 'relative'}}>
                 <Layout fixedHeader>
@@ -37,7 +34,6 @@ class Navbar extends React.Component {
                 </Layout>
             </div>
         )
-    }
-}
+};
 
 export default Navbar;
