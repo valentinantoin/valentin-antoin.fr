@@ -32,7 +32,7 @@ function App() {
                         <Link to="/presentation">Présentation</Link>
                         <Link to="/portfolio">Portfolio</Link>
                         <Link to="/contact">Contact</Link>
-                        <Link to="/">Mon CV</Link>
+                        <a href="./files/CV-ValentinAntoin.pdf" download>Mon CV</a>
                     </Navigation>
                 </Drawer>
                 <Main />
