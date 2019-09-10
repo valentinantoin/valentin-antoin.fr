@@ -5,7 +5,7 @@ import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-ic
 
 const FooterSocial = () => {
     return (
-        <Footer size="mini">
+        <Footer id="footer" size="mini">
             <FooterSection type="bottom">
                 <FooterLinkList>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinantoin"

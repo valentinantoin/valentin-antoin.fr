@@ -13,7 +13,7 @@ function App() {
     <div className="App">
         <div style={{height: '700px', position: 'relative'}}>
             <Layout fixedHeader>
-                <Header title="Valentin Antoin">
+                <Header id="header" title="Valentin Antoin">
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinantoin"
                        title="Github"><FontAwesomeIcon icon={faGithub} size="3x" /></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/valentin-antoin/"
@@ -32,7 +32,7 @@ function App() {
                         <Link to="/presentation">Présentation</Link>
                         <Link to="/portfolio">Portfolio</Link>
                         <Link to="/contact">Contact</Link>
-                        <a href="./files/CV-ValentinAntoin.pdf" download>Mon CV</a>
+                        <a href="./files/CV-ValentinAntoin.pdf" download>Télécharger mon CV</a>
                     </Navigation>
                 </Drawer>
                 <Main />
