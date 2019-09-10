@@ -1,5 +1,10 @@
 import React from 'react';
 import { Layout, Header, Textfield, Drawer, Navigation, Content } from 'react-mdl';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 class Navbar extends React.Component {
     render() {
@@ -7,13 +12,12 @@ class Navbar extends React.Component {
             <div style={{height: '700px', position: 'relative'}}>
                 <Layout fixedHeader fixedDrawer>
                     <Header title="Valentin Antoin">
-                        <Textfield
-                            value=""
-                            onChange={() => {}}
-                            label="Search"
-                            expandable
-                            expandableIcon="search"
-                        />
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinantoin"
+                           title="Github"><FontAwesomeIcon icon={faGithub} /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/valentin-antoin/"
+                           title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Valentin_Antoin"
+                           title="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
                     </Header>
                     <Drawer title="Menu">
                         <Navigation>
