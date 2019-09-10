@@ -1,5 +1,5 @@
 import React from 'react';
-import {Footer, FooterSection, FooterLinkList, Header} from 'react-mdl';
+import {Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 

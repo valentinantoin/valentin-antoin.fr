@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Textfield, Drawer, Navigation, Content } from 'react-mdl';
+import { Layout, Header, Drawer, Navigation } from 'react-mdl';
 import { Card, CardTitle, CardText } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
