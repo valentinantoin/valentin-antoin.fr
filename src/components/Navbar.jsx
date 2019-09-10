@@ -13,11 +13,11 @@ class Navbar extends React.Component {
                 <Layout fixedHeader fixedDrawer>
                     <Header title="Valentin Antoin">
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinantoin"
-                           title="Github"><FontAwesomeIcon icon={faGithub} /></a>
+                           title="Github"><FontAwesomeIcon icon={faGithub} size="3x" /></a>
                         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/valentin-antoin/"
-                           title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                           title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} size="3x" /></a>
                         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Valentin_Antoin"
-                           title="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+                           title="Twitter"><FontAwesomeIcon icon={faTwitter} size="3x" /></a>
                     </Header>
                     <Drawer title="Menu">
                         <Navigation>
