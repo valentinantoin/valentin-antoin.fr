@@ -4,9 +4,9 @@ import { Layout, Header, Textfield, Drawer, Navigation, Content } from 'react-md
 class Navbar extends React.Component {
     render() {
         return (
-            <div style={{height: '300px', position: 'relative'}}>
+            <div style={{height: '700px', position: 'relative'}}>
                 <Layout fixedHeader fixedDrawer>
-                    <Header title="Title">
+                    <Header title="Valentin Antoin">
                         <Textfield
                             value=""
                             onChange={() => {}}
@@ -15,12 +15,12 @@ class Navbar extends React.Component {
                             expandableIcon="search"
                         />
                     </Header>
-                    <Drawer title="Title">
+                    <Drawer title="Menu">
                         <Navigation>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
+                            <a href="/">Présentation</a>
+                            <a href="/">Portfolio</a>
+                            <a href="/">Contact</a>
+                            <a href="/">Mon CV</a>
                         </Navigation>
                     </Drawer>
                     <Content />
