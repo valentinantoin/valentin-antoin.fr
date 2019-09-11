@@ -2,8 +2,11 @@ import React from 'react';
 
 class Portfolio extends React.Component {
     render() {
+        const img = './img/blurscreen.jpg';
         return (
-            <h1>Portfolio Page</h1>
+            <div style={{ backgroundImage: 'url(' + img + ')', height: '100%', backgroundSize: '100%'}}>
+
+            </div>
         )
     }
 }
