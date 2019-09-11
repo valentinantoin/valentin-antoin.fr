@@ -8,10 +8,11 @@ import Contact from './Contact';
 const Main = () => {
     return (
         <Switch>
-            <Route exact path={'/'} component={ Home} />
-            <Route path={'/presentation'} component={ Presentation}/>
-            <Route path={'/portfolio'} component={ Portfolio}/>
-            <Route path={'/contact'} component={ Contact}/>
+            <Route exact path={'/'} component={ Home } />
+            <Route path={'/home'} component={ Home }/>
+            <Route path={'/presentation'} component={ Presentation } />
+            <Route path={'/portfolio'} component={ Portfolio } />
+            <Route path={'/contact'} component={ Contact } />
         </Switch>
     )
 };

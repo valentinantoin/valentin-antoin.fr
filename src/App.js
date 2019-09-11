@@ -23,12 +23,13 @@ function App() {
                 </Header>
                 <Drawer>
                     <Card shadow={0} style={{width: 'auto', height: '320px', margin: '0'}}>
-                        <CardTitle expand style={{color: '#fff', background: '#6A7D8A'}}>Valentin Antoin</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: '#80929B'}}>Valentin Antoin</CardTitle>
                         <CardText>
                             Développeur web
                         </CardText>
                     </Card>
                     <Navigation>
+                        <Link to="/home">Accueil</Link>
                         <Link to="/presentation">Présentation</Link>
                         <Link to="/portfolio">Portfolio</Link>
                         <Link to="/contact">Contact</Link>
