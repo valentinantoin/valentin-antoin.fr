@@ -6,9 +6,9 @@ class Home extends React.Component {
     render() {
         const img = './img/netscreen2.jpg';
         return (
-            <div style={{ backgroundImage: 'url(' + img + ')' }} className="main">
+            <div style={{ backgroundImage: 'url(' + img + ')' }} className="main home">
                 <h1 className="mt">Valentin Antoin</h1>
-                <p>Développeur web</p>
+                <p className="sub">Développeur web</p>
                 <Link to="/portfolio"><Button raised ripple style={{ border: '1px solid #474747' }}>Mon portfolio</Button></Link>
             </div>
         )
