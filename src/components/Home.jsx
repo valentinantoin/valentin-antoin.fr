@@ -1,11 +1,15 @@
 import React from 'react';
+import { Button } from 'react-mdl';
+import {Link} from "react-router-dom";
 
 class Home extends React.Component {
     render() {
-        const img = './img/netscreen.jpg';
+        const img = './img/netscreen2.jpg';
         return (
-            <div style={{ backgroundImage: 'url(' + img + ')', height: '100%', backgroundSize: '100%', opacity: '0.7'}}>
-                <h1>Coucou</h1>
+            <div style={{ backgroundImage: 'url(' + img + ')' }} className="main">
+                <h1 className="mt">Valentin Antoin</h1>
+                <p>Développeur web</p>
+                <Link to="/portfolio"><Button raised ripple style={{ border: '1px solid #474747' }}>Mon portfolio</Button></Link>
             </div>
         )
     }

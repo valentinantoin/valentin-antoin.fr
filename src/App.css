@@ -24,9 +24,30 @@ footer {
 }
 
 #header {
-  background-color: #979AA9;
+  /*background:linear-gradient(to left, #979AA9, #eaedf7, #979AA9);*/
+  background-color: #474747;
 }
 
 #footer {
-  background-color: #979AA9;
+  background-color: #474747;
+}
+
+.main {
+  background-size: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.mt {
+  margin-top: 6rem;
+}
+
+.menu {
+  position: relative;
+  height: 700px;
+}
+
+.val {
+    background-size: 100%;
+    height: 100%;
 }

@@ -3,15 +3,17 @@ import './App.css';
 import { Layout, Header, Drawer, Navigation } from 'react-mdl';
 import { Card, CardTitle, CardText } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Main from './components/Main';
 import FooterSocial from "./components/FooterSocial";
 
 function App() {
+    const val = './img/val.jpg';
   return (
     <div className="App">
-        <div style={{height: '700px', position: 'relative'}}>
+        <div className="menu">
             <Layout fixedHeader>
                 <Header id="header" title="Valentin Antoin">
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinantoin"
@@ -23,7 +25,7 @@ function App() {
                 </Header>
                 <Drawer>
                     <Card shadow={0} style={{width: 'auto', height: '320px', margin: '0'}}>
-                        <CardTitle expand style={{color: '#fff', background: '#403B3E'}}>Valentin Antoin</CardTitle>
+                        <CardTitle expand style={{ backgroundImage: 'url(' + val +')', color: 'white'}} className="val">Valentin Antoin</CardTitle>
                         <CardText>
                             Développeur web
                         </CardText>
@@ -33,7 +35,8 @@ function App() {
                         <Link to="/presentation">Présentation</Link>
                         <Link to="/portfolio">Portfolio</Link>
                         <Link to="/contact">Contact</Link>
-                        <a href="./files/CV-ValentinAntoin.pdf" download>Télécharger mon CV</a>
+                        <a href="./files/CV-ValentinAntoin.pdf" download>
+                            <FontAwesomeIcon icon={faDownload} /> Télécharger mon CV</a>
                     </Navigation>
                 </Drawer>
                 <Main />
