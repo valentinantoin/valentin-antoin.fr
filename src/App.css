@@ -3,6 +3,11 @@
   100% { transform: translateY(0%); }
 }
 
+@keyframes slideRight {
+  0% { transform: translateX(200%); }
+  100% { transform: translateX(0%); }
+}
+
 .App {
   text-align: center;
 }
@@ -23,13 +28,13 @@ header a {
 
 footer {
   position: absolute;
+  bottom: 0;
   left: 0;
   right: 0;
   box-shadow: 0 3px 3px 3px black;
 }
 
 #header {
-  /*background:linear-gradient(to left, #979AA9, #eaedf7, #979AA9);*/
   background-color: #474747;
 }
 
@@ -53,7 +58,7 @@ footer {
 
 .menu {
   position: relative;
-  height: 700px;
+  height: 1200px;
 }
 
 .val {
@@ -64,4 +69,20 @@ footer {
 .sub {
     color: white;
     font-size: 1.3rem;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.portfolio > * {
+  animation: 1s slideRight;
+}
+
+.card-portfolio {
+  width: 25%;
+  margin: 3rem;
+  box-shadow: 5px 10px 10px black;
 }
