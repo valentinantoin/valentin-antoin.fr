@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Layout, Header, Drawer, Navigation } from 'react-mdl';
-import { Card, CardTitle, CardText } from 'react-mdl';
+import Card from 'react-bootstrap/Card'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +10,6 @@ import Main from './components/Main';
 import FooterSocial from "./components/FooterSocial";
 
 function App() {
-    const val = './img/val.jpg';
   return (
     <div className="App">
         <div className="menu">
@@ -24,11 +23,13 @@ function App() {
                        title="Twitter"><FontAwesomeIcon icon={faTwitter} size="3x" /></a>
                 </Header>
                 <Drawer>
-                    <Card shadow={0} style={{width: 'auto', height: '320px', margin: '0'}}>
-                        <CardTitle expand style={{ backgroundImage: 'url(' + val +')', color: 'white'}} className="val">Valentin Antoin</CardTitle>
-                        <CardText>
-                            Développeur web
-                        </CardText>
+                    <Card className='cardmenu' >
+                        <Card.Img src='./img/val.jpg'/>
+                        <Card.Body>
+                            <Card.Title>
+                                Valentin Antoin
+                            </Card.Title>
+                        </Card.Body>
                     </Card>
                     <Navigation>
                         <Link to="/home">Accueil</Link>
@@ -42,7 +43,6 @@ function App() {
                 <Main />
             </Layout>
         </div>
-      <FooterSocial />
     </div>
   );
 }
