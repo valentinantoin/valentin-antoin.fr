@@ -32,8 +32,8 @@ class Presentation extends React.Component {
                                 j'ai décidé de me reconvertir dans un domaine passionnant et porteur, le développement
                                 web. J'ai validé avec les félicitations du jury une formation de développeur web chez
                                 OpenClassrooms durant laquelle j'ai réalisé différents projets que vous pouvez retrouver
-                                sur ce site dans la section <Link to="/portfolio">portfolio</Link>. <br/><br/>
-                                Une forte curiosité naturelle, une veille technologique quotidienne et une polyvalence
+                                    sur ce site dans la section <Link to="/portfolio">portfolio</Link>.</p>
+                                <p>Une forte curiosité naturelle, une veille technologique quotidienne et une polyvalence
                                 issue d’un parcours professionnel riche et varié, sont les atouts que je souhaite à
                                 présent mettre à votre disposition.
                                 </p>
