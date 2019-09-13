@@ -79,3 +79,45 @@ header a {
   box-shadow: 10px 10px 10px black;
   color: white;
 }
+
+.accordion {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10rem;
+  animation: 1s slideRight;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 10px;
+}
+
+.accordion .card-body {
+  text-align: justify;
+}
+
+.accordion .card-header {
+  padding: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#lang {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.liTitle {
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+p Button {
+  margin: 2rem;
+}
+
+.accordion .card {
+  border-radius: 10px;
+}
