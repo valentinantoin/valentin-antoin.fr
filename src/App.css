@@ -21,19 +21,6 @@ header a {
   color: white;
 }
 
-#footer a {
-  margin-left: 2rem;
-  color: white;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 3px 3px 3px black;
-}
-
 #header {
   background-color: #474747;
 }
@@ -53,7 +40,8 @@ footer {
 }
 
 .mt {
-  margin-top: 6rem;
+  margin-top: 10rem;
+  font-size: 4rem;
 }
 
 .menu {
@@ -67,8 +55,8 @@ footer {
 }
 
 .sub {
-    color: white;
-    font-size: 1.3rem;
+    font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 .portfolio {
@@ -85,4 +73,9 @@ footer {
   width: 25%;
   margin: 3rem;
   box-shadow: 5px 10px 10px black;
+}
+
+#btn {
+  box-shadow: 10px 10px 10px black;
+  color: white;
 }

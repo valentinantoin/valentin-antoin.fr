@@ -7,7 +7,6 @@ import {faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-i
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Main from './components/Main';
-import FooterSocial from "./components/FooterSocial";
 
 function App() {
   return (
