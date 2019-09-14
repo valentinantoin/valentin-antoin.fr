@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import {Link} from "react-router-dom";
 import {
     faBootstrap,
-    faCss3, faGithub,
+    faCss3,
     faHtml5,
     faJs, faLinkedin,
     faPhp,
@@ -38,10 +38,6 @@ class Presentation extends React.Component {
                                 présent mettre à votre disposition.
                                 </p>
                                 <p className='center'>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinantoin"
-                                       title="Github">
-                                        <Button variant="outline-dark"><FontAwesomeIcon icon={faGithub} size="2x" /></Button>
-                                    </a>
                                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/valentin-antoin/"
                                        title="LinkedIn">
                                         <Button variant="outline-dark"><FontAwesomeIcon icon={faLinkedin} size="2x" /></Button>
