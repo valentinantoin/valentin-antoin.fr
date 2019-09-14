@@ -42,7 +42,7 @@ class Portfolio extends React.Component {
                     <Card.Body>
                         <Card.Title>Vélo'V Lyon</Card.Title>
                         <Card.Text>
-                        HTML / CSS / JS
+                            HTML / CSS / JS
                         </Card.Text>
                         <DropdownButton id="dropdown-basic-button" variant='secondary' title="Liens">
                             <Dropdown.Item href="http://velov.valentin-antoin.fr/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGlobe} />   Vers le site</Dropdown.Item>
