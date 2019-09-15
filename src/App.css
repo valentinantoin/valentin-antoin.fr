@@ -51,7 +51,7 @@ header a {
 
 .menu {
   position: relative;
-  height: 1200px;
+  height: 66.9rem;
 }
 
 .val {
@@ -60,13 +60,13 @@ header a {
 }
 
 .sub {
-    font-size: 2rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
 }
 
 .portfolio {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -75,8 +75,8 @@ header a {
 }
 
 .card-portfolio {
-  width: 25%;
-  margin: 3rem;
+  width: 50%;
+  margin-left: 25%;
   box-shadow: 5px 10px 10px #474747;
 }
 
@@ -146,4 +146,17 @@ p Button {
 
 .contact a {
   color: white;
+}
+
+.portfolio nav {
+  border-bottom: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #474747;
+  height: 4rem;
+  margin-top: 3rem;
+}
+
+nav a {
+  color: #474747;
+  border-radius: 10px;
 }
