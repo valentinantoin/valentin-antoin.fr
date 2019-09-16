@@ -18,20 +18,23 @@
     background-repeat: round;
 }
 
-.menu {
-    position: relative;
-    height: 80rem;
-}
-
-
 /*---   HEADER   ---*/
 header a {
   margin-right: 2rem;
   color: white;
 }
+header a:hover {
+    color: white;
+    transform: scale(1.2);
+}
 
 #header {
   background-color: #474747;
+}
+
+.menu {
+    position: relative;
+    height: 80rem;
 }
 
 /*---   HOME   ---*/
