@@ -1,3 +1,4 @@
+/*---   GLOBAL   ---*/
 @keyframes slideDown {
   0% { transform: translateY(-200%); }
   100% { transform: translateY(0%); }
@@ -12,10 +13,18 @@
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+    height: 100%;
+    background-repeat: round;
 }
 
+.menu {
+    position: relative;
+    height: 80rem;
+}
+
+
+/*---   HEADER   ---*/
 header a {
   margin-right: 2rem;
   color: white;
@@ -25,18 +34,10 @@ header a {
   background-color: #474747;
 }
 
-#footer {
-  background-color: #474747;
-}
-
-.main {
-  background-size: 100%;
-  height: 100%;
-  background-repeat: round;
-}
-
+/*---   HOME   ---*/
 .home {
   opacity: 0.7;
+  background-size: 100%;
   background-repeat: repeat;
 }
 
@@ -44,32 +45,22 @@ header a {
   animation: 1s slideDown;
 }
 
-.mt {
+.title {
   margin-top: 10rem;
   font-size: 4rem;
 }
 
-.menu {
-  position: relative;
-  height: 66.9rem;
-}
-
-.val {
-    background-size: 100%;
-    height: 100%;
-}
-
 .sub {
-  font-size: 2rem;
-  margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
-.portfolio {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+#btn {
+    box-shadow: 10px 10px 10px #474747;
+    color: white;
 }
 
+/*---   PORTFOLIO   ---*/
 .portfolio > * {
   animation: 1s slideRight;
 }
@@ -77,14 +68,27 @@ header a {
 .card-portfolio {
   width: 50%;
   margin-left: 25%;
+  margin-top: 6rem;
   box-shadow: 5px 10px 10px #474747;
 }
 
-#btn {
-  box-shadow: 10px 10px 10px #474747;
-  color: white;
+.portfolio nav {
+    border-bottom: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #474747;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: 1s slideDown;
 }
 
+nav a {
+    color: #474747;
+    border-radius: 10px;
+}
+
+/*---   PRESENTATION   ---*/
 .accordion {
   width: 60%;
   margin-left: 20%;
@@ -127,6 +131,7 @@ p Button {
   border-radius: 10px;
 }
 
+/*---   CONTACT   ---*/
 .contact ul {
   list-style-type: none;
   margin-top: 10rem;
@@ -148,15 +153,133 @@ p Button {
   color: white;
 }
 
-.portfolio nav {
-  border-bottom: none;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px #474747;
-  height: 4rem;
-  margin-top: 3rem;
+/*---   MEDIAQ   ---*/
+@media (min-width: 320px) and (max-width: 414px) {
+
+    .menu {
+        height: 812px;
+    }
+
+    .cardmenu img {
+        display: none;
+    }
+
+    .main {
+        background-repeat: repeat;
+        height: 100%;
+    }
+
+    .accordion {
+        margin-top: 8%;
+    }
+
+    .portfolio nav {
+        height: 11rem;
+    }
+
+    .card-portfolio {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2rem;
+    }
+
+    .contact li {
+        margin-top: 1rem;
+        margin-left: 2%;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    .contact svg {
+        margin-right: 0.5rem;
+    }
+
+    header a {
+        margin-right: 0.5rem;
+        font-size: 0.5rem;
+    }
+
+    .accordion .card-header {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .accordion a {
+        display: none;
+    }
+
+    .accordion svg {
+        font-size: 1.5rem;
+    }
 }
 
-nav a {
-  color: #474747;
-  border-radius: 10px;
+@media (max-width: 768px) {
+
+  .portfolio nav {
+    height: 6rem;
+  }
+
+  .menu {
+    height: 1024px;
+  }
+
+  .card-portfolio {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10rem;
+  }
+
+  .accordion {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .contact li {
+    margin-left: 20%;
+  }
+
+  .home,
+  .main {
+    background-size: auto;
+    background-repeat: initial;
+  }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .home {
+    background-repeat: round;
+  }
+
+  .accordion {
+    margin-top: 2rem;
+  }
+
+    .card-portfolio {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 4rem;
+    }
+
+  .contact li {
+    margin-left: 25%;
+  }
+
+  .menu {
+    height: 768px;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 823px) {
+    .portfolio nav {
+        height: 8rem;
+    }
+}
+
+@media (min-height: 1200px) {
+    .menu {
+        height: 1366px;
+    }
+}
+
+
