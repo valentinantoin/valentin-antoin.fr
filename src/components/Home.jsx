@@ -7,7 +7,7 @@ class Home extends React.Component {
         const img = './img/netscreen2.jpg';
         return (
             <div style={{ backgroundImage: 'url(' + img + ')' }} className="main home">
-                <h1 className="mt">Valentin Antoin</h1>
+                <h1 className="title">Valentin Antoin</h1>
                 <p className="sub">Développeur web</p>
                 <Link to="/portfolio"><Button variant="outline-dark" size='lg' id='btn'>Mon portfolio</Button></Link>
             </div>
