@@ -245,6 +245,7 @@ p Button {
 }
 
 @media (min-width: 538px) and (max-width: 736px) {
+
   .portfolio nav {
     height: 8rem;
   }
@@ -281,12 +282,14 @@ p Button {
 }
 
 @media (min-width: 812px) and (max-width: 823px) {
+
   .portfolio nav {
     height: 8rem;
   }
 }
 
 @media (min-height: 1200px) {
+  
   .menu {
     height: 1366px;
   }
